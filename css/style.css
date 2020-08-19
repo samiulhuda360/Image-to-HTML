@@ -1,0 +1,53 @@
+body{	
+margin: 0;
+padding: 0;
+}
+header{
+	padding: 15px 0px;
+	/*border:1px solid red;*/
+}
+
+.wrapper {
+	width: 75%;
+/*	border: 1px solid red;*/
+	margin: auto;
+	overflow: hidden;
+}
+
+.logo {
+	width: 20%;
+	/*border: 1px solid red;*/
+	float: left;
+}
+.logo img {
+	width: 100%;
+}
+
+.menu {
+	width: 75%;
+	/*border: 1px solid red;*/
+	float: right;
+}
+.menu ul{
+	float:right;
+}
+.menu ul li {
+    list-style: none;
+    float:left;
+    margin-top: 15px;
+}
+.menu ul li a {
+	font-family:;
+	font-size:18px;
+	font-weight:;  
+	color: #535D69;
+	text-decoration: none;
+	padding: 0px 15px;
+    display: inline-block;
+}
+.menu ul li:last-child a {
+	padding-right: 0px;
+}
+.menu ul li a:hover{
+	color:#BD223E;
+}
